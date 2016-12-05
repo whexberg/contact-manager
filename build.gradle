@@ -1,0 +1,14 @@
+group 'com.thenerdbiker'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.hibernate:hibernate-core:5.2.5.Final'
+    compile 'com.h2database:h2:1.4.193'
+    compile 'javax.transaction:jta:1.1'
+}
